@@ -8,8 +8,8 @@
 
 import sys, os
 try:
-    from osgeo     import gdal, osr
-    from gdalconst import *
+    from osgeo import gdal, osr
+    from osgeo.gdalconst import *
 except ImportError:
     print(-1)
     sys.exit(-1)
